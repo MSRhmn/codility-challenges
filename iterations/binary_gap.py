@@ -12,7 +12,7 @@ def into_binary(n):
 
 
 def main():
-    int_value = int(input("Enter a integer value: "))
+    int_value = int(input("Enter an integer value: "))
     binary_string = into_binary(int_value)
 
     current_gap = 0
