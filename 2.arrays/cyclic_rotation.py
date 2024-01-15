@@ -6,7 +6,6 @@ def cyclic_rotation(arr, p):
     This function takes 2 arguments, array and a position.
     The position argument is responsible for the elements that will rotate.
     """
-
     n = len(arr)
 
     for i in range(p):
