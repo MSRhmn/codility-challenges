@@ -11,7 +11,7 @@ def perm_missing_elem(arr):
     for i in arr:
         current_elem_sum += i
 
-    # Apply arithmetic progression to sum of actual array
+    # Apply arithmetic progression to sum of the actual array
     n = len(arr) + 1
     sum_of_elem = n * (n + 1) // 2
     missing_elem = sum_of_elem - current_elem_sum
