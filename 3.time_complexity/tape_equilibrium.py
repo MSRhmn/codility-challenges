@@ -27,7 +27,7 @@ def tape_equilibrium(arr):
 
 def main():
     A = [3, 1, 2, 4, 3]
-    print(tape_equilibrium(A))
+    print(f"Minimal difference on splitting the array of {A} is: {tape_equilibrium(A)}")
 
 
 if __name__ == "__main__":
